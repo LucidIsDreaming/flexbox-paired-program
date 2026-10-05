@@ -33,7 +33,23 @@ nav{
     flex-direction: column;
 }
 
+/*features*/
 
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+
+/*footer*/
 
 
 /* 
