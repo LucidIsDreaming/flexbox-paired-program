@@ -13,8 +13,10 @@ header{
 
 nav{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+}
+
+.nav-link {
+    margin: 0 1rem;
 }
 
 .user-actions{
