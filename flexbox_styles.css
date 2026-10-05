@@ -24,16 +24,14 @@ nav{
 
 .card-container{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-
-
 
 
 
