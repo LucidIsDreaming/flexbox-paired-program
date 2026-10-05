@@ -13,7 +13,8 @@ header{
 
 nav{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .user-actions{
@@ -33,6 +34,12 @@ nav{
     flex-direction: column;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*features*/
 
 .features{
@@ -45,15 +52,52 @@ nav{
 .feature-item{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 1rem 2rem;
 }
 
 
 /*footer*/
 
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 2rem;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
+@media (max-width: 768px){
 
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+}
 
