@@ -4,6 +4,22 @@ Note: you should only need to use flexbox properties and margin/padding to creat
 */
 
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+.card{
+    flex-direction: column-reverse;
+}
+
+
+
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
