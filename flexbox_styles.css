@@ -28,6 +28,7 @@ nav{
 .card-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -64,7 +65,7 @@ nav{
 
 .footer-content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 3rem 2rem;
 }
 
@@ -75,9 +76,13 @@ nav{
 
 .social-links{
     display: flex;
-    justify-content: space-between;
-    padding: 0 2rem;
+    justify-content: flex-start;
 }
+
+.social-links a {
+    margin: 0 1rem 0 0;
+}
+
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
